@@ -1,0 +1,28 @@
+[{
+      "name": "Безлимитный 300",
+      "price": "300",
+      "speed": "10",
+      "description": "Объем включенного трафика не ограничен",
+    "blueTheme": true},
+      
+      {
+        "name": "Безлимитный 450",
+        "price": "450",
+        "speed": "50",
+        "description": "Объем включенного трафика не ограничен",
+        "greenTheme": true},
+        {
+            "name": "Безлимитный 550",
+            "price": "100",
+            "speed": "100",
+            "description": "Объем включенного трафика не ограничен",
+          "isSelected":true,
+          "orangeTheme": true},
+            {
+                "name": "Безлимитный 1000",
+                "price": "1000",
+                "speed": "250",
+                "description": "Объем включенного трафика не ограничен",
+                "blackTheme": true
+              }
+    ]

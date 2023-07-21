@@ -1,0 +1,24 @@
+.list-item {
+  height: 400px;
+}
+
+.card {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+.item {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.item-info {
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.selected {
+  border: 2px solid orange;
+}/*# sourceMappingURL=Cards.css.map */
