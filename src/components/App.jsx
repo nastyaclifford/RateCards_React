@@ -1,9 +1,12 @@
 import Rate from "./Rate.jsx"
 import rates from "../data/rates.json";
 import "../styles/index.scss";
+import React, {useState} from "react";
 
 
 function App() {
+  const [selected, setSelected] = useState (null);
+
   return (
     <div className="container">
       {rates.map ((item, index) =>(
@@ -13,12 +16,15 @@ function App() {
       speed = {item.speed} 
       description = {item.description}
       isSelected = {item.isSelected}
-      index = {item.index}
       blueTheme = {item.blueTheme}
       greenTheme = {item.greenTheme}
       orangeTheme = {item.orangeTheme}
       blackTheme = {item.blackTheme}
-      key = {index}/>))}
+      selected = {selected}
+      setSelected = {setSelected}
+      index = {index}
+      key = {index}
+      />))}
     </div>
   );
 }

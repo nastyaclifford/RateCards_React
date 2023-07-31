@@ -1,15 +1,15 @@
-import React, {useState} from "react";
+
 import "../styles/Cards.scss"
 
 export default function RateCards(props) {
-    const [selected, setSelected] = useState (false);
+    
     const handleChange = () => {
-        setSelected (!selected)}
+        props.setSelected (props.index)}
     
         return(
             <div>
                 <div className = "list_item" >   
-                    <div onClick={handleChange} className = {selected? "card selected" : "card"} > 
+                    <div onClick={handleChange} className = {props.selected === props.index ? "card selected" : "card"} > 
                     <div className = {"card-text " + (props.blueTheme? "blueTheme" : "") + (props.greenTheme? "greenTheme" : "") + (props.orangeTheme? "orangeTheme" : "") + (props.blackTheme? "blackTheme" : "") } > 
                     <div className="title" ><h2 className="item" >{props.name}</h2>
                     </div>
