@@ -1,2 +1,2 @@
-# Week23
-Hometask 1, React, Week 23
+# Rate Cards_react
+
